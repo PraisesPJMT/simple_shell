@@ -38,8 +38,6 @@ int main(int ac, char **av, char **environ)
 	/* split buffer(copy) into an array of strings */
 	argv = buff_split(copy, delim, token_count);
 	/* Execution with execve function */
-	/* TODO: Add Execution with execve function */
-	/**
 	child_pid = fork();
 	if (child_pid == 0)
 	{
@@ -49,7 +47,7 @@ int main(int ac, char **av, char **environ)
 			perror("Error");
 			return (1);
 		}
-	} wait(NULL); **/
+	} wait(NULL);
 	} while (count != -1);
 	return (0);
 }
