@@ -103,9 +103,6 @@ int tokenize(char *buffer, char *delim)
  * Return: an Array containing the splitted buffer
  */
 
-/******************************************************/
-/* TODO: Add buff_split function */
-/**
 char **buff_split(char *buffer, char *delim, int token_count)
 {
 	char *token, **argv;
@@ -124,17 +121,15 @@ char **buff_split(char *buffer, char *delim, int token_count)
 			free(argv);
 			return (NULL);
 		}
-	>>>> This is a comment >>>> copy the content of token into argv array
+		/*copy the content of token into argv array*/
 		strcpy(argv[index], token);
 		index++;
-		/* get the next token
+		/* get the next token*/
 		token = strtok(NULL, delim);
 	}
 	argv[index] = NULL;
 	return (argv);
 }
-**/
-/****************************************************************/
 
 /**
   * copy_buffer - copies content of buffer

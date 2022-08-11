@@ -2,9 +2,6 @@
 #define PID_H
 
 /* Standard Libraries */
-/* TODO: Add all the standard Libraries */
-/* They are: */
-/**
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -14,8 +11,6 @@
 #include <stdbool.h>
 #include <sys/stat.h>
 
-Just remove the unnecessary comments.
- */
 
 /* FUNCTION PROTOTYPES */
 int _putchar(char c);
