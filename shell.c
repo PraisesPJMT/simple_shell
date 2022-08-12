@@ -19,8 +19,6 @@ int main(int ac, char **av, char **environ)
 	(void)ac;
 	(void)av;
 	do {
-	_putchar('$');
-	_putchar(' ');
 	count = getline(&buffer, &n, stdin);
 	if (count == -1)
 	{
